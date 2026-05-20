@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    /* CSS 선택자를 생성하고 내용을 입력합니다.
+       선택자어는
+        html tag (html태그 전체 적용)
+        tag id (id 를 가진 태그에 적용, id 앞에 #을 붙임)
+        className (class 를 가진 태그에 적용, class 앞에 .을 붙임)
+        tag 속성 (태그의 속성값이 일치하는 태그에 적용, 태그명[속성명='value'] 형태로 작성)
+    */
+    <style>
+    div {
+        width: 500px;
+        height: 200px;
+        background-color: blue;
+        border: 1px solid red;
+        /* 두께 선모양 색 */
+    }
+    #div2 {
+        background-color: yellow;
+    }
+
+    .pink {
+        background-color: pink;
+    }
+
+    /*태그 [속성명='vlaue']*/
+    input[name="userId"] {
+        height: 90px;
+    }
+
+    </style>
+
+
+</head>
+<body>
+    <div>div1</div>
+    <div id="div2">div2</div>
+    <div>div3</div>
+    <div class="pink">div4</div>
+    <div class="pink">div5</div>
+    <div>   
+        <input type="text" name="userId" placeholder="아이디입력">
+        <input type="password" name="userPassword" placeholder="비밀번호입력">
+    </div>
+</body>
+</html>
