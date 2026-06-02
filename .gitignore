@@ -1,4 +1,4 @@
-# 클로드
+# 클로드 관련
 
 .claude/
 
@@ -12,3 +12,6 @@ target/
 .project
 .classpath
 .settings/
+
+#환경설정 파일
+.env
